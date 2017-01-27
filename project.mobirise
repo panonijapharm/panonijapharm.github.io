@@ -1,0 +1,273 @@
+{
+  "settings": {
+    "name": "PurityM",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {}
+    },
+    "versionFirst": "3.11",
+    "uniqCompNum": 6,
+    "versionPublish": "3.11.1",
+    "favicon": "@PROJECT_PATH@/assets/images/site-icon-custom-128x128.png",
+    "noImageResize": "",
+    "path": "@PROJECT_PATH@"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1.2em",
+              "color": "#e6e0dc"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#000000"
+            },
+            ".navbar-toggler": {
+              "color": "#e6e0dc"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-0",
+          "_params": {
+            "bgColor": "#000000",
+            "fontSize": "1.2",
+            "fontName": {},
+            "fontColor": "#e6e0dc",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/icon-128x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "#top",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-danger\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html#header1-1\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Panonija Pharm</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header1-1\">Naslovna strana</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"index.html\">Naslovna strana</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"index.html#content5-2\">O nama</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"index.html#form1-3\">Kontakt</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"index.html#map1-4\">Mapa</a></li>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            "H1": {
+              "font-size": "60px",
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff"
+            },
+            "B": {
+              "font-size": "22px",
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "header1-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/rxbottlepharmacy-2716x1810-2000x1333.jpg",
+            "bgColor": "#f1c050",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#000000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "title": "Panonija Pharm<br>Sombor",
+          "text": "<b>Veleprodaja farmaceutskih, parafarmaceutskih proizvoda, medicinskih sredstava i ostale opreme</b><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"index.html#content5-2\" data-toolbar=\"-mbrBtnMove\">O nama</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"index.html#form1-3\" data-toolbar=\"-mbrBtnMove\">Kontakt</a> "
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#ffffff"
+            },
+            "P": {
+              "text-align": "center",
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "content5-2",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/kk-1-pharmacy-copy-1920x1002-2000x1043.jpg",
+            "bgColor": "#f1c050",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#000000",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "O nama",
+          "caption": "<p><br></p><p><b><span style=\"font-size: 1.25rem; line-height: 1.5;\">Preduzeće za medicinsko snabdevanje Panonija Pharm osnovano 1954. pod nazivom Vetprom Sombor ad, bavi se veleprodajom farmaceutskih, parafarmaceutskih proizvoda, medicinskih sredstava i opreme. Kroz dugi niz godina poslovanja, učenja i usavršavanja, trudimo se da našim klijentima pružimo uslugu koja će zadovoljiti sve potrebe koje nameće današnje sve zahtevnije tržište u oblasti farmaceutske industrije.</span><br></b></p><p><b><span style=\"font-size: 1.25rem; line-height: 1.5;\">Panonija Pharm je registovana kod Agencije za privredne registre, poseduje dozvolu nadležnog ministarstva za obavljanje delatnosti i sertifikat standarda kvaliteta (ISO 9001:2008)</span><br></b></p><p><span style=\"font-size: 1.25rem; line-height: 1.5;\"><b>Telefon za informacije: 025 / 416 610</b></span><br></p><p><br></p>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-3",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#c49732",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "Kontakt",
+          "form": {
+            "action": "jelacic@gmail.com",
+            "alerts": {
+              "success": "Hvala, vaša poruka je poslata!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Ime*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Poruka*"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Pošalji</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-4",
+          "_params": {
+            "googleMap": {
+              "address": "Kralja Petra I 32 Sombor",
+              "placeId": "EjbQmtGA0LDRmdCwINCf0LXRgtGA0LAgSSAzMiwg0KHQvtC80LHQvtGALCDQodGA0LHQuNGY0LA",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          }
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "STRONG": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "contacts1-5",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-panonija-2-white-265x89.png",
+              "width": 265,
+              "active": true,
+              "link": "index.html#header1-1",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Adresa:</strong><br>\nKralja Petra I 32 I sprat<br>\nSombor",
+          "text2": "<strong>Kontakt:</strong><br>\nEmail: kontakt@panonijapharm.com<br>\nPhone: 025/ &nbsp;416 610<br><br>",
+          "text3": "<strong>Linkovi</strong><ul><li><a href=\"http://www.finispharm.com/\">Finis Pharm</a><a href=\"https://mobirise.com/\"></a></li><li><a href=\"www.bayer.rs\">Bayer AG</a><a href=\"www.bayer.rs\"></a>&nbsp;<a href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><br></ul>"
+        }
+      ]
+    }
+  }
+}
