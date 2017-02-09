@@ -77,20 +77,38 @@
                 <h2 class="mbr-section-title display-3 text-xs-center">Kontakt</h2>
 
                 <div data-form-alert="true"><div hidden="" data-form-alert-success="true">Hvala, vaša poruka je poslata!</div></div>
-                <form action="https://mobirise.com/" method="post" data-form-title="Kontakt">
-                    <input type="hidden" value="pNcvPYQUi/uRvLlLS7XtSRrtQsQnnykwvuJC0wFuMmUuhygPhotI8Dj4DljT5yabbz7oD3k/eF0BytYo+TMAe7eFEFcoeK1cFztT6ABhEy6wrDgif/EfbbRbBgiUy+Qq" data-form-email="true">
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="name" required="" placeholder="Ime*" data-form-field="Name">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" name="email" required="" placeholder="Email*" data-form-field="Email">
-                    </div>
-                    
-                    <div class="form-group">
-                        <textarea class="form-control" name="message" rows="7" placeholder="Poruka*" data-form-field="Message"></textarea>
-                    </div>
-                    <div class="text-xs-right"><button type="submit" class="btn btn-secondary-outline">Pošalji</button></div>
-                </form>
+<form action="mail.php" method="POST">
+<p>Name</p> <input type="text" name="name">
+<p>Email</p> <input type="text" name="email">
+<p>Phone</p> <input type="text" name="phone">
+
+<p>Request Phone Call:</p>
+Yes:<input type="checkbox" value="Yes" name="call"><br />
+No:<input type="checkbox" value="No" name="call"><br />
+
+<p>Website</p> <input type="text" name="website">
+
+<p>Priority</p>
+<select name="priority" size="1">
+<option value="Low">Low</option>
+<option value="Normal">Normal</option>
+<option value="High">High</option>
+<option value="Emergency">Emergency</option>
+</select>
+<br />
+
+<p>Type</p>
+<select name="type" size="1">
+<option value="update">Website Update</option>
+<option value="change">Information Change</option>
+<option value="addition">Information Addition</option>
+<option value="new">New Products</option>
+</select>
+<br />
+
+<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+<input type="submit" value="Send"><input type="reset" value="Clear">
+</form>
             </div>
         </div>
     </div>
