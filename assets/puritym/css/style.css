@@ -677,3 +677,23 @@ footer.mbr-footer {
 	top: 0;
 	left: -2400px;
 }
+
+    .mbr-map iframe{
+    	pointer-events: none;
+    }
+    .mbr-map iframe.clicked{
+    	pointer-events: auto;
+    }
+		.mbr-map {
+
+-webkit-filter: grayscale(10%);
+
+-moz-filter: grayscale(10%);
+
+-ms-filter: grayscale(10%);
+
+-o-filter: grayscale(10%);
+
+filter: grayscale(10%);
+
+}
