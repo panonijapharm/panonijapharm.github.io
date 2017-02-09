@@ -8,7 +8,7 @@ $priority = $_POST['priority'];
 $type = $_POST['type'];
 $message = $_POST['message'];
 $formcontent=" From: $name \n Phone: $phone \n Call Back: $call \n Website: $website \n Priority: $priority \n Type: $type \n Message: $message";
-$recipient = "someaddress@email.com";
+$recipient = "jelacic@gmail.com";
 $subject = "Your Email Subject Goes Here";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
